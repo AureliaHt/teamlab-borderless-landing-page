@@ -1,4 +1,15 @@
-# teamlab-borderless-landing-page
-Projet de formation à développer en solo. Thème: créer une landing page reponsive autour d'un lieu touristique ou d'un artiste. Choix: TeamLab Borderless
+## Teamlab Borderless Landin Page Project
 
-### modif test
+Création d'une landing page pour un projet de formation. L'objectif de ce projet est de travailler sur la responsivité du site et sur les frameworks CSS.
+Le sujet de la landing page doit toucher un thème artistique ou touristique.
+
+Thème choisi : Teamlab Borderless, musée d'arts numériques à Tokyo.
+"Framework" CSS : Sass, Bootstrap
+
+### Wireframe et framework
+
+Réalisées sur Figma.
+
+![wireframe phone et desktop](wireframe_maquette/wireframe.png)
+
+![maquette phone et desktop](wireframe_maquette/maquettes.png)
