@@ -20,7 +20,7 @@ body {
     top: 50%;
     left: 50%;
     width: auto;
-    height: 25rem;
+    height: 27rem;
     transform: translate(-50%, -50%);
     overflow: hidden;
     text-align: center;
@@ -34,7 +34,7 @@ body {
 
         span{
             margin-top: 0.6rem;
-            border: 0.3rem solid white;
+            border: 0.3rem solid #fff;
             padding: 0.7rem 1rem;
             display: inline-block;
         }
@@ -55,7 +55,9 @@ p{
 
 .rainbow_box{
     margin-top: 5rem;
-    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
     padding: 10rem;
     background: #2c2c2c;
     position: relative;
@@ -86,33 +88,22 @@ p{
 }
 
 .first_picture {
-    position: absolute;
-    width: 60rem;
-    height: 33rem;
-    margin-top: 2rem;
-    margin-left: 3rem;
+    width: 69rem;
+    height: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
     overflow: hidden;
-    background: url(../photos/5.jpg) no-repeat center;
+    background: url(../photos/1.jpg) no-repeat center;
     background-size: cover;
 }
 
-.first_box{
-    margin-left: auto;
-    margin-right: 2rem;
-}
-
-.second_box{
-    margin-right: auto;
-    margin-left: 2rem;
-
-}
-
 .second_picture {
-    position: absolute;
-    width: 48rem;
-    height: 33rem;
-    margin-top: 2rem;
-    margin-left: 67rem;
+    width: 69rem;
+    height: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
     overflow: hidden;
     background: url(../photos/2.jpg) no-repeat center;
     background-size: cover;
@@ -149,8 +140,8 @@ button {
         }
 
         &:hover{
-            transform: translate(0, -5px);
-            box-shadow: 10px -10px 25px 0 rgba(255, 226, 62, 0.25);
+            transform: translate(0, -6px);
+            box-shadow: 10px -10px 25px 0 rgba(255, 226, 62, 0.25), -10px 10px 25px 0px rgba(255, 133, 62, 0.5);
         }
 }
 
@@ -236,26 +227,234 @@ button {
     padding: 70px 0;
 }
 
-@media only screen and (max-width: 1400px){
+.scroll_to_top{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    background: #ff3c00;
+    bottom: 120px;
+    right: 70px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 30px;
+
+    &:hover{
+            color: #ff9d00;
+            background-color: #fff;
+    }
+}
+
+@media only screen and (max-width: 1630px){
+    .hero_image {
+        position: relative;
+        height: 800px;
+    }
+    .container {
+        position: absolute;
+        width: 55rem;
+        height: 33rem;
+    }
+}
+
+@media only screen and (max-width: 1120px){
+    .hero_image {
+        position: relative;
+        height: 650px;
+    }
+    .container {
+        position: absolute;
+        width: 45rem;
+        height: 35rem;
+    }
     .first_picture{
-        display: flex;
+        width: 56rem;
+        height: 30rem;
         margin-left: auto;
         margin-right: auto;
     }
-
-}
-
-@media only screen and (max-width: 1100px){
+      .second_picture{
+        width: 56rem;
+        height: 30rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .rainbow_box{
         margin-left: auto;
         margin-right: auto;
         margin-top: 5rem;
         padding: 5rem;
     }
+    .scroll_to_top{
+        display: none;
+    }
 }
 
-@media only screen and (max-width: 700px){
-    .footer_column{
-        width: 100%;
+@media only screen and (max-width: 945px){
+    .container {
+        position: absolute;
+        width: 40rem;
+        height: 32rem;
+    }
+    .first_picture{
+        width: 46rem;
+        height: 27rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+      .second_picture{
+        width: 46rem;
+        height: 27rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 790px){
+    .container {
+        position: absolute;
+        width: 35rem;
+        height: 34rem;
+    }
+    p{
+        font-size: 23px;
+        text-shadow: 0 0 10px #fff;
+    }
+    .first_picture{
+        width: 38rem;
+        height: 26rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+      .second_picture{
+        width: 38rem;
+        height: 26rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .container {
+        position: absolute;
+        width: 30rem;
+        height: 34rem;
+        font-weight: 560;
+
+        h1 {
+        font-size: 58px;
+        letter-spacing: 0.2em;
+        margin: 0;
+        text-shadow: 0 0 20px #fff;
+        }
+    }
+    .first_picture{
+        width: 35rem;
+        height: 25rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+      .second_picture{
+        width: 35rem;
+        height: 25rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rainbow_box {
+        width: 61%;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .container {
+        position: absolute;
+        width: 25rem;
+        height: 36rem;
+        font-weight: 500;
+
+        h1 {
+        font-size: 50px;
+        letter-spacing: 0.2em;
+        margin: 0;
+        text-shadow: 0 0 20px #fff;
+        }
+    }
+    .first_picture{
+        width: 30rem;
+        height: 23rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+      .second_picture{
+        width: 30rem;
+        height: 23rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rainbow_box {
+        width: 55%;
+        padding: 4rem;
+    }
+    p{
+        font-size: 20px;
+        text-shadow: 0 0 10px #fff;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .first_picture{
+        width: 24rem;
+        height: 19rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+      .second_picture{
+        width: 24rem;
+        height: 19rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 388px) {
+    .container {
+        position: absolute;
+        width: 29rem;
+        height: 32rem;
+        font-weight: 300;
+
+        h1 {
+        font-size: 50px;
+        letter-spacing: 0.1em;
+        margin: 0;
+        text-shadow: 0 0 20px #fff;
+        }
+
+        span{
+            margin-top: 0.6rem;
+            border: 0.2rem solid #fff;
+            padding: 0.1rem 0.2rem;
+            display: inline-block;
+        }
+    }
+
+    .first_picture{
+        width: 20rem;
+        height: 16rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+      .second_picture{
+        width: 20rem;
+        height: 16rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rainbow_box {
+        width: 62%;
+        padding: 2rem;
     }
 }
