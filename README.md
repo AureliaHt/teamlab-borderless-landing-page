@@ -13,3 +13,11 @@ Réalisées sur Figma.
 ![wireframe phone et desktop](wireframe_maquette/wireframe.png)
 
 ![maquette phone et desktop](wireframe_maquette/maquettes.png)
+
+### Fin de projet
+
+Projet fini le 16.02.22
+
+Les objectifs, qui étaient la découverte de Sass et de faire un site responsive, sont atteints.
+
+En cours de réalisation, j'ai vu les limites de ma maquette Figma. Certains aspects étaient finalement peu esthétique. Je les ai corrigé au mieux.
